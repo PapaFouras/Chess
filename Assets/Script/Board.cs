@@ -25,7 +25,7 @@ public class Board : MonoBehaviour
     private void Awake() {
         CreateCells();
         //PlacePieces("nnnnKnnnPPPPPPPPnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnppppppppnnnnknnn");
-        PlacePieces(Util.position5);
+        PlacePieces();
         //GameManager.instance.SetAllAttackedCells();
         //GameManager.instance.UpdateCellUI();
     }
